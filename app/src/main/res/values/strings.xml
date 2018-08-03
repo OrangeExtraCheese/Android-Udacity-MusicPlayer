@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+
+    <string name="label_main_menu">Main Menu</string>
+    <string name="label_browse_artists">Artists Library</string>
+    <string name="label_browse_albums">Albums Library</string>
+    <string name="label_browse_songs">Songs Library</string>
+
+    <string name="main_menu_artists">artists</string>
+    <string name="main_menu_albums">albums</string>
+    <string name="main_menu_songs">songs</string>
+
+    <string name="artist_list_item_button_albums">Albums</string>
+    <string name="artist_list_item_button_songs">Songs</string>
+
+    <string name="album_list_item_button_songs">Songs List</string>
+    <string name="album_list_item_button_play">Play</string>
+
+    <string name="song_list_item_radiobutton_alphabetically">Alphabetically</string>
+    <string name="song_list_item_radiobutton_shuffle">Shuffle</string>
+    <string name="song_list_item_radiobutton_genre">By genre</string>
+</resources>
