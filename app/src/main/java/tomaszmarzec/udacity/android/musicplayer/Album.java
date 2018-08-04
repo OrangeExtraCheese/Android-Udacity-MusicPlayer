@@ -17,15 +17,8 @@ import java.util.Comparator;
     //As Song objects inherits all values (except title) of it's member variables from Album object, then this method by iterating through array of titles, creates for each one new Song object.
    public void insertSongs(String[] songTitles)
    {
-       /* If I write this in following way:
 
-       Song songToAdd;
-       for(String title:songTitles)
-           songToAdd = new Song(title, mArtist, mAlbumGenre, mAlbumTitle);
-           albumSongs.add(songToAdd);
-           Database.addToAllSongsList(songToAdd);
-
-       Then I get an error that songToAdd might not have been initialized, so to avoid it i created additional constructor in song class,
+      /* To avoid getting an error that songToAdd might not have been initialized, i created additional constructor in song class.
        taking no parameters.
        */
 
